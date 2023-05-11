@@ -34,7 +34,6 @@ def copy():
     pyperclip.copy(random_password)
 
 
-label= Label(text="Tyagi password Generator Service",font="Times 20 bold italic").grid(column=1,row=0)
 label1 = Label(text="Enter password length", font="Times 12 bold")
 label1.grid(column=0, row=1)
 but = Button(text="Generate password", command=generate)
